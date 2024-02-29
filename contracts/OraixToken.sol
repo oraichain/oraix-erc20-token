@@ -343,7 +343,7 @@ contract OraixToken is Context, IERC20, Ownable {
     string private _name;
     
     constructor() {
-        _name = "Oraix Token";
+        _name = "OraiDEX Token";
         _symbol = "ORAIX";
         _decimals = 18;
         _totalSupply = 10 * 10e23;
