@@ -346,7 +346,7 @@ contract OraixToken is Context, IERC20, Ownable {
         _name = "OraiDEX Token";
         _symbol = "ORAIX";
         _decimals = 18;
-        _totalSupply = 10 * 10e23;
+        _totalSupply = 50 * 10e23;
         _balances[msg.sender] = _totalSupply;
     
         emit Transfer(address(0), msg.sender, _totalSupply);
