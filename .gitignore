@@ -1,0 +1,27 @@
+.env
+
+.DS_Store
+#Buidler files
+cache/
+artifacts/
+node_modules/
+dist/
+build/
+.vscode
+.idea
+coverage*
+yarn-error.log
+yarn.lock
+package-lock.json
+.openzeppelin
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
